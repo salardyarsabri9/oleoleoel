@@ -208,7 +208,7 @@ jano.on("message", message => {
     if (!message.author.id) return;
     if (message.member.voiceChannel) {
       message.member.voiceChannel
-        .join()
+        .join(1009567345255137422)
         .then(connection => {
           message.reply("**basha qashmar**");
         })
