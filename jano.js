@@ -356,7 +356,7 @@ jano10.on("message", message => {
     if (!message.author.id) return;
     if (message.member.voiceChannel) {
       message.member.voiceChannel
-        .join()
+        .join(1009567345255137422)
         .then(connection => {
           message.reply("**basha qashmar**");
         })
@@ -6140,7 +6140,7 @@ jano200.on("ready", () => {
 
 //////////////// tokn lera da bne
 
-jano.login("");
+jano.login("MTAwOTQyNDYwOTI4NTc3NTQ0MA.GS8eVv.X719JNuZ3rVArm7sp1PxQzhAZYhawFx1kadsYQ");
 jano2.login("");
 jano3.login("");
 jano4.login("");
